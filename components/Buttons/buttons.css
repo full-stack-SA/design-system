@@ -1,0 +1,34 @@
+@import url(./../../styles/colors/colors.css);
+
+.bt-list {
+    display: flex;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    gap: 1em;
+}
+
+.btn {
+    width:5.5em;
+    height: 2.5em;
+    padding: 0.5em;
+    border-radius: 6.24em;
+    border: none;
+}
+
+.filled {
+    background-color: var(--color-primery);
+    color: var(--color-on-primery);
+}
+
+.outline {
+    background-color: var(--color-surface);
+    color: var(--color-primery);
+    outline: var( --color-outline) solid 1px;
+}
+
+.text {
+    background-color: var(--color-surface);
+    color: var(--color-primery);
+    border:none;
+}
